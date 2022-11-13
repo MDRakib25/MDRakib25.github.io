@@ -1,0 +1,31 @@
+body {          
+    font-family: cursive;
+    font-size: medium;
+    background-color: rgb(208, 215, 228);
+}
+
+.insert{
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px solid gray;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px;
+    padding: 8px;
+}
+
+.in{
+    background-color: rgb(208, 215, 228);
+    border-color: rgb(109, 85, 85);
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+fieldset{
+    width: 950px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    padding: 6px;
+}
