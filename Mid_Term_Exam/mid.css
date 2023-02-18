@@ -1,0 +1,15 @@
+.myform{
+    border: 20px solid green;
+    background-color: azure;
+    padding: 20px;
+    width: 70%;
+}
+
+input:invalid {
+    border: 2px solid red;  
+}
+
+input:valid {
+    border: 2px solid green;
+}
+
