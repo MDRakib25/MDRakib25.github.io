@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+      JavaScript 7th Edition
+
+      Author: MD Rakib
+      Date:   2023 - 03 - 20
+
+      Filename: index.html
+   -->
+  <meta charset="utf-8">
+  <title>Assignment 3 - BugSmasher</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="header">
+    <h1>Bug Smasher</h1>
+    <h3 id="scoreTXT">Score: 0</h3>
+    <h3 id="missedTXT">Missed: 0</h3>
+
+    <div id="resetScore" class="button">
+      Reset Score
+    </div>
+
+    <div id="resetSpeed" class="button">
+      Reset Speed
+    </div>
+  </div>
+
+  <p>Gameplay: Click on the bug before it disapears. Each time you click on it, the bug will appear faster.</p>
+  <div class="stage">
+    <canvas id="background-layer">
+      Your browser doesn't support Canvas, try another or update.
+    </canvas>
+    <img id="bug">
+    <h4 id="speedTXT"></h4>
+    <script src="Bugsmasher.js" defer></script>
+  </div>
+
+  <footer>
+    <h4 style="color: rgb(233, 13, 13); font-family: italic;">&copy; Copyright MD RAKIB - ID#301306055 - COMP-125 - Winter Semester 2023 - ASSIGNMENT 3</h4>
+  </footer>
+</body>
+
+</html>
